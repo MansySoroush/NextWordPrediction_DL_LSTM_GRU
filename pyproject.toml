@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "next_word_prediction_DL_RNN_LSTM_GRU"
+version = "0.0.1"
+description = "A deep learning RNN LSTM GRU project to predict the next word."
+authors = [{name = "Mansy", email = "mansy.soroush@gmail.com"}]
+dependencies = [
+    "ipykernel",
+    "pandas",
+    "numpy",
+    "seaborn",
+    "matplotlib",
+    "scikit-learn",
+    "dill",
+    "tensorflow",
+    "tensorboard",
+    "streamlit",
+    "scikeras",
+    "nltk"
+]
