@@ -10,9 +10,9 @@ The project includes the following steps:
 
 2- Data Preprocessing: The text data is tokenized, converted into sequences, and padded to ensure uniform input lengths. The sequences are then split into training and testing sets.
 
-3- Model Building: An LSTM-GRU model is constructed with an embedding layer, two GRU layers, and a dense output layer with a softmax activation function to predict the probability of the next word.
+3- Model Building: An LSTM-GRU model is constructed with an embedding layer, two GRU & Dropout layers, and a dense output layer with a softmax activation function to predict the probability of the next word.
 
-4- Model Training: The model is trained using the prepared sequences, with early stopping implemented to prevent overfitting. Early stopping monitors the validation loss and stops training when the loss stops improving.
+4- Model Training: The model is trained using the prepared sequences. In addition, BayesianOptimization is used to find the best parameters for the best model.
 
 5- Model Evaluation: The model is evaluated using a set of example sentences to test its ability to predict the next word accurately.
 

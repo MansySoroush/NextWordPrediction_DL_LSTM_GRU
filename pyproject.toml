@@ -19,5 +19,7 @@ dependencies = [
     "tensorboard",
     "streamlit",
     "scikeras",
+    "keras-tuner",
+    "bayesian-optimization",
     "nltk"
 ]

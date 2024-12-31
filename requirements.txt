@@ -7,5 +7,7 @@ tensorboard
 matplotlib
 streamlit
 scikeras
+keras-tuner
+bayesian-optimization
 nltk
 dill
