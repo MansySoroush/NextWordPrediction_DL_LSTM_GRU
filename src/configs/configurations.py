@@ -22,3 +22,7 @@ class DataTransformationConfig:
 class ModelTrainerConfig:
     model_path: str = os.path.join(ARTIFACT_FOLDER_PATH, TRAINED_MODEL_KERAS_FILE_NAME)
 
+@dataclass
+class PredictPipelineConfig:
+    model_path: str = os.path.join(ARTIFACT_FOLDER_PATH, TRAINED_MODEL_KERAS_FILE_NAME)
+    tokenizer_path: str = os.path.join(ARTIFACT_FOLDER_PATH, TOKENIZER_FILE_NAME)
